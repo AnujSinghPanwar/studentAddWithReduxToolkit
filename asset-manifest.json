@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/studentAddWithReduxToolkit/static/css/main.b7ecd69e.css",
+    "main.js": "/studentAddWithReduxToolkit/static/js/main.7ac9fe41.js",
+    "index.html": "/studentAddWithReduxToolkit/index.html",
+    "main.b7ecd69e.css.map": "/studentAddWithReduxToolkit/static/css/main.b7ecd69e.css.map",
+    "main.7ac9fe41.js.map": "/studentAddWithReduxToolkit/static/js/main.7ac9fe41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7ecd69e.css",
+    "static/js/main.7ac9fe41.js"
+  ]
+}
