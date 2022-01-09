@@ -20,7 +20,57 @@ export const clearUser = createAsyncThunk("clear", () => {});
 
 // ACTION end
 const initialState = {
-  users: [],
+  users: [
+    {
+      name: "Anuj Panwar",
+      email: "Anuj@gmail.com",
+      username: "Ravan",
+      address: "delhi",
+      phone: "9898569856",
+    },
+    {
+      name: "Deepak Verma",
+      email: "Deepak@gmail.com",
+      username: "SIn",
+      address: "delhi",
+      phone: "1236547896",
+    },
+    {
+      name: "Dheeraj Kumar",
+      email: "Dheeraj@gmail.com",
+      username: "Kaalu",
+      address: "delhi",
+      phone: "7896541232",
+    },
+    {
+      name: "Bhoopal",
+      email: "Bhoopal@gmail.com",
+      username: "Bhoopal",
+      address: "delhi",
+      phone: "8985698569",
+    },
+    {
+      name: "Shiksha",
+      email: "Shiksha@gmail.com",
+      username: "Shiksha",
+      address: "delhi",
+      phone: "7896523696",
+    },
+    {
+      name: "Neha",
+      email: "Neha@gmail.com",
+      username: "Neha",
+      address: "delhi",
+      phone: "9856748999",
+    },
+    {
+      name: "Priyanka",
+      email: "Priyanka@gmail.com",
+      username: "Pri",
+      address: "delhi",
+      phone: "8988888888",
+    },
+  ],
   userContainer: [],
   loader: false,
   errors: {},
