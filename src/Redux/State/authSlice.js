@@ -22,6 +22,7 @@ export const clearUser = createAsyncThunk("clear", () => {});
 const initialState = {
   users: [
     {
+      id:"1",
       name: "Anuj Panwar",
       email: "Anuj@gmail.com",
       username: "Ravan",
@@ -29,6 +30,7 @@ const initialState = {
       phone: "9898569856",
     },
     {
+      id:"2",
       name: "Deepak Verma",
       email: "Deepak@gmail.com",
       username: "SIn",
@@ -36,6 +38,7 @@ const initialState = {
       phone: "1236547896",
     },
     {
+      id:"3",
       name: "Dheeraj Kumar",
       email: "Dheeraj@gmail.com",
       username: "Kaalu",
@@ -43,6 +46,7 @@ const initialState = {
       phone: "7896541232",
     },
     {
+      id:"4",
       name: "Bhoopal",
       email: "Bhoopal@gmail.com",
       username: "Bhoopal",
@@ -50,6 +54,7 @@ const initialState = {
       phone: "8985698569",
     },
     {
+      id:"5",
       name: "Shiksha",
       email: "Shiksha@gmail.com",
       username: "Shiksha",
@@ -57,6 +62,7 @@ const initialState = {
       phone: "7896523696",
     },
     {
+      id:"6",
       name: "Neha",
       email: "Neha@gmail.com",
       username: "Neha",
@@ -64,6 +70,7 @@ const initialState = {
       phone: "9856748999",
     },
     {
+      id:"7",
       name: "Priyanka",
       email: "Priyanka@gmail.com",
       username: "Pri",
